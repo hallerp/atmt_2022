@@ -1,0 +1,92 @@
+changed dir into /home/user/kew/HS2021/atmt/tests/assignment_03/../..
+
+launching training...
+
+INFO: Commencing training!
+INFO: COMMAND: train.py --data /home/user/kew/HS2021/atmt/tests/assignment_03/../../data/en-fr//prepared/ --source-lang fr --target-lang en --save-dir /home/user/kew/HS2021/atmt/tests/assignment_03/baseline/checkpoints --cuda True
+INFO: Arguments: {'cuda': 'True', 'data': '/home/user/kew/HS2021/atmt/tests/assignment_03/../../data/en-fr//prepared/', 'source_lang': 'fr', 'target_lang': 'en', 'max_tokens': None, 'batch_size': 1, 'train_on_tiny': False, 'arch': 'lstm', 'max_epoch': 10000, 'clip_norm': 4.0, 'lr': 0.0003, 'patience': 3, 'log_file': None, 'save_dir': '/home/user/kew/HS2021/atmt/tests/assignment_03/baseline/checkpoints', 'restore_file': 'checkpoint_last.pt', 'save_interval': 1, 'no_save': False, 'epoch_checkpoints': False, 'encoder_embed_dim': 64, 'encoder_embed_path': None, 'encoder_hidden_size': 64, 'encoder_num_layers': 1, 'encoder_bidirectional': 'True', 'encoder_dropout_in': 0.25, 'encoder_dropout_out': 0.25, 'decoder_embed_dim': 64, 'decoder_embed_path': None, 'decoder_hidden_size': 128, 'decoder_num_layers': 1, 'decoder_dropout_in': 0.25, 'decoder_dropout_out': 0.25, 'decoder_use_attention': 'True', 'decoder_use_lexical_model': 'False', 'device_id': 0}
+INFO: Loaded a source dictionary (fr) with 4000 words
+INFO: Loaded a target dictionary (en) with 4000 words
+INFO: Built a model with 1308576 parameters
+INFO: Epoch 000: valid_loss 4.83 | num_tokens 9.14 | batch_size 500 | valid_perplexity 125
+INFO: Epoch 001: valid_loss 4.81 | num_tokens 9.14 | batch_size 500 | valid_perplexity 122
+INFO: Epoch 002: valid_loss 4.61 | num_tokens 9.14 | batch_size 500 | valid_perplexity 101
+INFO: Epoch 003: valid_loss 4.34 | num_tokens 9.14 | batch_size 500 | valid_perplexity 76.7
+INFO: Epoch 004: valid_loss 4.1 | num_tokens 9.14 | batch_size 500 | valid_perplexity 60.4
+INFO: Epoch 005: valid_loss 3.79 | num_tokens 9.14 | batch_size 500 | valid_perplexity 44.1
+INFO: Epoch 006: valid_loss 3.8 | num_tokens 9.14 | batch_size 500 | valid_perplexity 44.7
+INFO: Epoch 007: valid_loss 3.59 | num_tokens 9.14 | batch_size 500 | valid_perplexity 36.3
+INFO: Epoch 008: valid_loss 3.48 | num_tokens 9.14 | batch_size 500 | valid_perplexity 32.5
+INFO: Epoch 009: valid_loss 3.45 | num_tokens 9.14 | batch_size 500 | valid_perplexity 31.4
+INFO: Epoch 010: valid_loss 3.35 | num_tokens 9.14 | batch_size 500 | valid_perplexity 28.5
+INFO: Epoch 011: valid_loss 3.28 | num_tokens 9.14 | batch_size 500 | valid_perplexity 26.6
+INFO: Epoch 012: valid_loss 3.24 | num_tokens 9.14 | batch_size 500 | valid_perplexity 25.5
+INFO: Epoch 013: valid_loss 3.22 | num_tokens 9.14 | batch_size 500 | valid_perplexity 24.9
+INFO: Epoch 014: valid_loss 3.18 | num_tokens 9.14 | batch_size 500 | valid_perplexity 24.2
+INFO: Epoch 015: valid_loss 3.14 | num_tokens 9.14 | batch_size 500 | valid_perplexity 23.2
+INFO: Epoch 016: valid_loss 3.08 | num_tokens 9.14 | batch_size 500 | valid_perplexity 21.7
+INFO: Epoch 017: valid_loss 3.04 | num_tokens 9.14 | batch_size 500 | valid_perplexity 20.9
+INFO: Epoch 018: valid_loss 3.06 | num_tokens 9.14 | batch_size 500 | valid_perplexity 21.3
+INFO: Epoch 019: valid_loss 2.95 | num_tokens 9.14 | batch_size 500 | valid_perplexity 19.2
+INFO: Epoch 020: valid_loss 2.99 | num_tokens 9.14 | batch_size 500 | valid_perplexity 19.8
+INFO: Epoch 021: valid_loss 3.04 | num_tokens 9.14 | batch_size 500 | valid_perplexity 20.9
+INFO: Epoch 022: valid_loss 2.87 | num_tokens 9.14 | batch_size 500 | valid_perplexity 17.6
+INFO: Epoch 023: valid_loss 2.86 | num_tokens 9.14 | batch_size 500 | valid_perplexity 17.4
+INFO: Epoch 024: valid_loss 2.81 | num_tokens 9.14 | batch_size 500 | valid_perplexity 16.6
+INFO: Epoch 025: valid_loss 2.8 | num_tokens 9.14 | batch_size 500 | valid_perplexity 16.4
+INFO: Epoch 026: valid_loss 2.77 | num_tokens 9.14 | batch_size 500 | valid_perplexity 16
+INFO: Epoch 027: valid_loss 2.77 | num_tokens 9.14 | batch_size 500 | valid_perplexity 16
+INFO: Epoch 028: valid_loss 2.77 | num_tokens 9.14 | batch_size 500 | valid_perplexity 15.9
+INFO: Epoch 029: valid_loss 2.71 | num_tokens 9.14 | batch_size 500 | valid_perplexity 15
+INFO: Epoch 030: valid_loss 2.8 | num_tokens 9.14 | batch_size 500 | valid_perplexity 16.4
+INFO: Epoch 031: valid_loss 2.69 | num_tokens 9.14 | batch_size 500 | valid_perplexity 14.7
+INFO: Epoch 032: valid_loss 2.64 | num_tokens 9.14 | batch_size 500 | valid_perplexity 14
+INFO: Epoch 033: valid_loss 2.65 | num_tokens 9.14 | batch_size 500 | valid_perplexity 14.2
+INFO: Epoch 034: valid_loss 2.65 | num_tokens 9.14 | batch_size 500 | valid_perplexity 14.2
+INFO: Epoch 035: valid_loss 2.63 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13.8
+INFO: Epoch 036: valid_loss 2.63 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13.9
+INFO: Epoch 037: valid_loss 2.59 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13.4
+INFO: Epoch 038: valid_loss 2.57 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13.1
+INFO: Epoch 039: valid_loss 2.56 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13
+INFO: Epoch 040: valid_loss 2.57 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13.1
+INFO: Epoch 041: valid_loss 2.54 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12.6
+INFO: Epoch 042: valid_loss 2.6 | num_tokens 9.14 | batch_size 500 | valid_perplexity 13.4
+INFO: Epoch 043: valid_loss 2.54 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12.7
+INFO: Epoch 044: valid_loss 2.51 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12.4
+INFO: Epoch 045: valid_loss 2.53 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12.5
+INFO: Epoch 046: valid_loss 2.51 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12.4
+INFO: Epoch 047: valid_loss 2.48 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12
+INFO: Epoch 048: valid_loss 2.47 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.8
+INFO: Epoch 049: valid_loss 2.46 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.7
+INFO: Epoch 050: valid_loss 2.49 | num_tokens 9.14 | batch_size 500 | valid_perplexity 12
+INFO: Epoch 051: valid_loss 2.47 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.8
+INFO: Epoch 052: valid_loss 2.44 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.5
+INFO: Epoch 053: valid_loss 2.46 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.7
+INFO: Epoch 054: valid_loss 2.47 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.9
+INFO: Epoch 055: valid_loss 2.47 | num_tokens 9.14 | batch_size 500 | valid_perplexity 11.8
+INFO: No validation set improvements observed for 3 epochs. Early stop!
+
+translating test set...
+
+[2021-09-17 20:49:49] COMMAND: translate.py --data /home/user/kew/HS2021/atmt/tests/assignment_03/../../data/en-fr//prepared/ --dicts /home/user/kew/HS2021/atmt/tests/assignment_03/../../data/en-fr//prepared/ --checkpoint-path /home/user/kew/HS2021/atmt/tests/assignment_03/baseline/checkpoints/checkpoint_last.pt --output /home/user/kew/HS2021/atmt/tests/assignment_03/baseline/translations.txt --cuda True --batch-size 25
+[2021-09-17 20:49:49] Arguments: {'cuda': 'True', 'seed': 42, 'data': '/home/user/kew/HS2021/atmt/tests/assignment_03/../../data/en-fr//prepared/', 'dicts': '/home/user/kew/HS2021/atmt/tests/assignment_03/../../data/en-fr//prepared/', 'checkpoint_path': '/home/user/kew/HS2021/atmt/tests/assignment_03/baseline/checkpoints/checkpoint_last.pt', 'batch_size': 1, 'output': '/home/user/kew/HS2021/atmt/tests/assignment_03/baseline/translations.txt', 'max_len': 100, 'source_lang': 'fr', 'target_lang': 'en', 'max_tokens': None, 'train_on_tiny': False, 'arch': 'lstm', 'max_epoch': 10000, 'clip_norm': 4.0, 'lr': 0.0003, 'patience': 3, 'log_file': None, 'save_dir': '/home/user/kew/HS2021/atmt/tests/assignment_03/baseline/checkpoints', 'restore_file': 'checkpoint_last.pt', 'save_interval': 1, 'no_save': False, 'epoch_checkpoints': False, 'encoder_embed_dim': 64, 'encoder_embed_path': None, 'encoder_hidden_size': 64, 'encoder_num_layers': 1, 'encoder_bidirectional': 'True', 'encoder_dropout_in': 0.25, 'encoder_dropout_out': 0.25, 'decoder_embed_dim': 64, 'decoder_embed_path': None, 'decoder_hidden_size': 128, 'decoder_num_layers': 1, 'decoder_dropout_in': 0.25, 'decoder_dropout_out': 0.25, 'decoder_use_attention': 'True', 'decoder_use_lexical_model': 'False', 'device_id': 0}
+[2021-09-17 20:49:49] Loaded a source dictionary (fr) with 4000 words
+[2021-09-17 20:49:49] Loaded a target dictionary (en) with 4000 words
+[2021-09-17 20:52:26] Loaded a model from checkpoint /home/user/kew/HS2021/atmt/tests/assignment_03/baseline/checkpoints/checkpoint_last.pt
+postprocessing test set...
+
+
+scoring test set...
+
+{
+ "name": "BLEU",
+ "score": 16.8,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.0.0",
+ "verbose_score": "44.0/22.1/12.2/6.7 (BP = 1.000 ratio = 1.341 hyp_len = 5218 ref_len = 3892)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.0.0"
+}

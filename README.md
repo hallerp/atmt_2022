@@ -93,6 +93,3 @@ cat path/to/postprocessed/model/translations/file | sacrebleu path/to/raw/target
 Assignments must be submitted on OLAT by 14:00 on their respective
 due dates.
 
-- [ ] Assignment 1: Training and evaluating an NMT model
-  with in-domain and out-of-domain data
-

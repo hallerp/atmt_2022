@@ -66,7 +66,7 @@ Notes:
   for your system.
 - only use `--train-on-tiny` for testing. This will train a
 dummy model on the `tiny_train` split.
-- --cuda flag if you want to train on a GPU, e.g. using Google Colab
+- add the --cuda flag if you want to train on a GPU, e.g. using Google Colab
 
 # Evaluating a trained model
 

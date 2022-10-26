@@ -49,7 +49,7 @@ bash scripts/extract_splits.sh ../infopankki_raw data/en-sv/infopankki/raw
 bash scripts/run_preprocessing.sh data/en-sv/infopankki/raw/
 ``` -->
 
-# Training a model
+# Training a model (uncomment the last flag if you want to run training on GPU, e.g. on a Google Colab)
 
 ```
 python train.py \
@@ -57,7 +57,8 @@ python train.py \
     --source-lang en \
     --target-lang sv \
     --save-dir path/to/model/checkpoints \
-    --train-on-tiny # for testing purposes only
+    --train-on-tiny # for testing purposes only \
+    #--cuda 
 ```
 
 Notes:

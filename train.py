@@ -16,7 +16,7 @@ from seq2seq.models import ARCH_MODEL_REGISTRY, ARCH_CONFIG_REGISTRY
 def get_args():
     """ Defines training-specific hyper-parameters. """
     parser = argparse.ArgumentParser('Sequence to Sequence Model')
-    parser.add_argument('--cuda', default=False, help='Use a GPU')
+    parser.add_argument('--cuda', action='store_true', help='Use a GPU')
 
     # Add data arguments
     parser.add_argument('--data', default='indomain/preprocessed_data/', help='path to data directory')

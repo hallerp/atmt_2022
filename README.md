@@ -49,7 +49,7 @@ bash scripts/extract_splits.sh ../infopankki_raw data/en-sv/infopankki/raw
 bash scripts/run_preprocessing.sh data/en-sv/infopankki/raw/
 ``` -->
 
-# Training a model (uncomment the last flag if you want to run training on GPU, e.g. on a Google Colab)
+# Training a model
 
 ```
 python train.py \
@@ -57,8 +57,7 @@ python train.py \
     --source-lang en \
     --target-lang sv \
     --save-dir path/to/model/checkpoints \
-    --train-on-tiny # for testing purposes only \
-    #--cuda 
+    --train-on-tiny # for testing purposes only
 ```
 
 Notes:
@@ -67,6 +66,7 @@ Notes:
   for your system.
 - only use `--train-on-tiny` for testing. This will train a
 dummy model on the `tiny_train` split.
+- --cuda flag if you want to train on a GPU, e.g. using Google Colab
 
 # Evaluating a trained model
 
